@@ -169,6 +169,7 @@ body {
 /*Content Area* Headers and Sections*/
 header {
 	overflow: hidden;
+	position: fixed;
 }
 
 .content-area {
