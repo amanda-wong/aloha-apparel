@@ -171,7 +171,6 @@ header {
 	overflow: hidden;
 }
 
-
 .content-area {
 	margin: 0 auto;
 	text-align: center;
@@ -188,6 +187,7 @@ header {
 	justify-content: space-between;
 	z-index: 1;
 	box-shadow: 0px 0px 15px rgba(175, 175, 175, 0.60);
+	position: fixed;
 }
 
 .site-logo {
@@ -267,7 +267,7 @@ span .shopping-cart {
 }
 
 .banner {
-	margin: 0 auto ;
+	margin: 20% auto 0 auto;
 	background:
 		linear-gradient( to bottom, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.25) 100%),
 		url(assets/images/banner-girl.png) no-repeat center top 60px, url(assets/images/flower-bkgd.jpg) repeat-x center top;
@@ -636,6 +636,7 @@ i {
 	}
 
 	.banner {
+		margin-top: 6%;
 		background:
 			linear-gradient( to bottom, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.25) 100%),
 			url(assets/images/banner-girl.png) no-repeat center top 60px, url(assets/images/flower-bkgd.jpg) repeat-x center top;
@@ -787,7 +788,7 @@ i {
 	}
 
 	.banner {
-		margin: 0 auto;
+		margin: 8% auto 0 auto;
 		background-size: cover, 250px 615px, contain;
 		height: 550px;
 	}
