@@ -1,8 +1,8 @@
-														
-															/*CSS Reset*/
-					
 
-/* http://meyerweb.com/eric/tools/css/reset/ 
+															/*CSS Reset*/
+
+
+/* http://meyerweb.com/eric/tools/css/reset/
    v2.0 | 20110126
    License: none (public domain)
 */
@@ -16,8 +16,8 @@ b, u, i, center,
 dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
 menu, nav, output, ruby, section, summary,
 time, mark, audio, video {
 	margin: 0;
@@ -28,7 +28,7 @@ time, mark, audio, video {
 	vertical-align: baseline;
 }
 /* HTML5 display-role reset for older browsers */
-article, aside, details, figcaption, figure, 
+article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
@@ -154,7 +154,7 @@ table {
 	outline: none;
 }
 
-html { 
+html {
 	min-width: 480px}
 
 body {
@@ -186,17 +186,17 @@ header {
 	flex-wrap: wrap;
 	justify-content: space-between;
 	z-index: 1;
-	box-shadow: 0px 0px 15px rgba(175, 175, 175, 0.60);	
+	box-shadow: 0px 0px 15px rgba(175, 175, 175, 0.60);
 }
 
-#logo {
+.site-logo {
 	max-width: 120px;
 	height: 50px;
 	flex: 0 1 50%;
 	order: 1;
 }
 
-span #shopping-cart {
+span .shopping-cart {
 	flex-basis: 0 1 50%;
 }
 
@@ -205,7 +205,7 @@ span #shopping-cart {
 	position: relative;
 }
 
-#shopping-cart {
+.shopping-cart {
 	width:48px;
 	height: auto;
 }
@@ -219,7 +219,7 @@ span #shopping-cart {
 	justify-content: center;
 }
 
-#nav {
+.nav {
 	display: flex;
 	justify-content: space-between;
 	flex-wrap: wrap;
@@ -227,13 +227,13 @@ span #shopping-cart {
 	width: 300px;
 }
 
-#nav li {
+.nav li {
 	display: flex;
 	align-items: center;
 	padding: 0 3px;
 }
 
-#nav a {
+.nav a {
 	text-decoration: none;
 	color: #e2574c;
 	text-transform: uppercase;
@@ -244,7 +244,7 @@ span #shopping-cart {
 	text-align: center;
 }
 
-#nav a:hover {
+.nav a:hover {
 	color: #b64036;
 }
 
@@ -263,15 +263,15 @@ span #shopping-cart {
     right: -4px;
     top: -4px;
     display: none;
-}	
+}
 
 .banner {
 	margin: 0 auto ;
-	background: 
-		linear-gradient( to bottom, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.25) 100%), 
+	background:
+		linear-gradient( to bottom, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.25) 100%),
 		url(assets/images/banner-girl.png) no-repeat center top 60px, url(assets/images/flower-bkgd.jpg) repeat-x center top;
 	background-size: cover, 8.5rem auto, cover;
-	display: flex; 
+	display: flex;
 	justify-content: center;
 	align-items: center;
 	flex-direction: column;
@@ -284,13 +284,13 @@ span #shopping-cart {
 	font-size: 1.1rem;
 	font-family: 'Raleway', sans-serif;
 	font-style: normal;
-	text-transform: uppercase;	
+	text-transform: uppercase;
 	font-weight: bold;
 	text-shadow: 2px 2px 4px rgba(100, 100, 100, 0.8);
 }
 
 .banner p:last-child {
-	font-size: 2.2rem;	
+	font-size: 2.2rem;
 	font-family: 'Playfair_Display', sans-serif;
 	font-style: normal;
 	font-weight: normal;
@@ -341,7 +341,7 @@ h2 {
 	font-family: 'raleway', sans-serif;
 	font-weight: bold;
 	font-style: normal;
-	font-size: 22.4px; 
+	font-size: 22.4px;
 	color: #fff;
 	text-transform: uppercase;
 	text-shadow: 2px 2px 4px rgba(100, 100, 100, 0.8);
@@ -382,32 +382,32 @@ h2 {
 }
 
 .category-blocks .img.mens {
-	background: linear-gradient( rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.25) 100% ), 
+	background: linear-gradient( rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.25) 100% ),
 		url('assets/images/mens-category.jpg') no-repeat center center / cover;
 }
 
 .category-blocks .img.trends {
-	background: linear-gradient( rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.25) 100% ), 
+	background: linear-gradient( rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.25) 100% ),
 		url('assets/images/trends-category.jpg') no-repeat center center / cover;
 }
 
 .category-blocks .img.glasses {
-	background: linear-gradient( rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.25) 100% ), 
+	background: linear-gradient( rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.25) 100% ),
 		url('assets/images/glasses-category.jpg') no-repeat center center / cover;
 }
 
 .category-blocks .img.sale {
-	background: linear-gradient( rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.25) 100% ), 
+	background: linear-gradient( rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.25) 100% ),
 		url('assets/images/sale-category.jpg') no-repeat center center / cover;
 }
 
 .category-blocks .img.bags {
-	background: linear-gradient( rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.25) 100% ), 
+	background: linear-gradient( rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.25) 100% ),
 		url('assets/images/bags-category.jpg') no-repeat center center / cover;
 }
 
 .category-blocks .img.womens {
-	background: linear-gradient( rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.25) 100% ), 
+	background: linear-gradient( rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.25) 100% ),
 		url('assets/images/womens-category.jpg') no-repeat center center / cover;
 }
 
@@ -420,7 +420,7 @@ h2 {
 	height: 500px !important;
 }
 
-.bx-wrapper img { 
+.bx-wrapper img {
 	display: inline;
 }
 
@@ -428,7 +428,7 @@ h2 {
 	padding-bottom: 0
 }
 
-.category img { 
+.category img {
 	width: 17rem;
 	height: auto;
 }
@@ -436,7 +436,7 @@ h2 {
 .category {
 	width: 100%;
 	text-align: center;
-	padding-top: 2.14rem; 
+	padding-top: 2.14rem;
 }
 
 .category p:nth-child(2) {
@@ -496,7 +496,7 @@ button:hover {
 
 .form-wrap {
 	background-color: #fff;
-	padding: 4px 4px 4px 30px; 
+	padding: 4px 4px 4px 30px;
 	width: 400px;
 	height: 45px;
 	border-radius: 35px;
@@ -509,7 +509,7 @@ input[type="email"] {
 	border: none;
 	width: 225px;
 	font-family: 'raleway', sans-serif;
-	font-weight: normal; 
+	font-weight: normal;
 	font-style: normal;
 	font-size: 1rem;
 	size: 35;
@@ -540,7 +540,7 @@ footer {
 	float: left;
 	font-family: 'Playfair_Display';
 	font-weight: normal;
-	font-style: normal; 
+	font-style: normal;
 	color: #fff;
 	line-height: 1.43rem;
 	padding-bottom: 1.43rem;
@@ -609,11 +609,11 @@ i {
 		flex-wrap: nowrap;
 	}
 
-	#logo {
+	.site-logo {
 		width: 7.3rem;
 	}
 
-	#shopping-cart {
+	.shopping-cart {
 		width: 3rem;
 		order: 3;
 	}
@@ -625,7 +625,7 @@ i {
 		padding: 0;
 	}
 
-	#nav li {
+	.nav li {
 		padding: 0 3px;
 	}
 
@@ -635,8 +635,8 @@ i {
 	}
 
 	.banner {
-		background: 
-			linear-gradient( to bottom, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.25) 100%), 
+		background:
+			linear-gradient( to bottom, rgba(0,0,0,0.25) 0%, rgba(0,0,0,0.25) 100%),
 			url(assets/images/banner-girl.png) no-repeat center top 60px, url(assets/images/flower-bkgd.jpg) repeat-x center top;
 		background-size: cover, 7.5rem auto, contain;
 		height: 20.8rem;
@@ -670,7 +670,7 @@ i {
 		max-width: 50% !important;
 		height: 425px !important;
 		overflow: visible !important;
-	} 
+	}
 
 	.bx-wrapper {
 		max-width: 100%;
@@ -704,7 +704,7 @@ i {
 
 	.category p:nth-child(4) {
 		font-size: 1rem;
-	}	
+	}
 
 	.form-wrap {
 		height: 50px;
@@ -717,14 +717,14 @@ i {
 
 	.footer-left {
 		text-align: left;
-		width: 46%;	
+		width: 46%;
 	}
 
 	.contact-info {
 		padding: 0.7rem 0;
 	}
 
-	.footer-right { 
+	.footer-right {
 		float: right;
 		width: 20%;
 	}
@@ -750,12 +750,12 @@ i {
 /*Second break point at 1240px*/
 @media screen and (min-width: 1240px) {
 
-	#logo {
+	.site-logo {
 		max-width: 160px;
 		height: auto;
 	}
 
-	#shopping-cart {
+	.shopping-cart {
 		width: 60px;
 	}
 
@@ -772,16 +772,16 @@ i {
 		align-items: center;
 	}
 
-	#nav { 
+	.nav {
 		justify-content: center;
 		width: 500px;
 	}
 
-	#nav li {
+	.nav li {
 		padding: 20px;
 	}
 
-	#nav a {
+	.nav a {
 		font-size: 16px;
 	}
 
@@ -797,7 +797,7 @@ i {
 	}
 
 	.banner p:last-child {
-		font-size: 4rem;	
+		font-size: 4rem;
 		padding-top: 1.25rem;
 	}
 
@@ -839,9 +839,9 @@ i {
 	.bx-viewport {
 		max-width: 26% !important;
 		height: 425px !important;
-	} 
+	}
 
-	.category img { 
+	.category img {
 		width: 15.75rem;
 		height: 15.75rem;
 	}
