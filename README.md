@@ -2,7 +2,7 @@
 
 ### Summary
 
-[Aloha Apparel](https://github.com/amanda-wong/aloha-apparel.git) is a fully responsive home page that scrolls to various sections of the page with a single click of the navigation item. In Featured Products, users are able add items to cart and instantly see their cart count in the shopping cart.
+[Aloha Apparel](http://amanda-wong.github.io/aloha-apparel/) is a fully responsive home page that scrolls to various sections of the page with a single click of the navigation item. In Featured Products, users are able add items to cart and instantly see their cart count in the shopping cart.
 
 ### Tools and methods
 
