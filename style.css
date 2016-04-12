@@ -417,6 +417,10 @@ h2 {
 	box-shadow: none;
 }
 
+.bx-clone {
+	display: none !important;
+}
+
 .bx-viewport {
 	height: 500px !important;
 }
@@ -426,7 +430,7 @@ h2 {
 }
 
 .categories {
-	padding-bottom: 0
+	padding-bottom: 60px;
 }
 
 .category img {

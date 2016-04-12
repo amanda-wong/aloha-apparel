@@ -1,8 +1,9 @@
-$(function(){
-  $('.bxslider').bxSlider({
-	speed: 500, 
-  	controls: false, 
-  	auto: true
-  });  
-});
 
+$('.main-carousel').flickity({
+  // options
+  cellAlign: 'left',
+  contain: true,
+  autoPlay: true,
+  prevNextButtons: false,
+  wrapAround: true
+});
